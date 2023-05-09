@@ -6,13 +6,20 @@ public class Main {
 
     public static void main(String[] args) {
         var processo = new Processo();
+        System.out.println(processo);
 
         processo.avancar();
         System.out.println(processo);
+
         processo.avancar();
         System.out.println(processo);
+
         processo.avancar();
-        processo.encerrar();
+        System.out.println(processo);
+
+        processo.avancar();
+        System.out.println(processo);
+
     }
 
 

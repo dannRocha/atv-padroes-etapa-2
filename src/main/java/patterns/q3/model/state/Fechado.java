@@ -9,7 +9,7 @@ public class Fechado extends EstadoProcesso {
     private EstadoProcesso processo;
     @Override
     public Status getStatus() {
-        return null;
+        return this.status;
     }
 
     @Override
